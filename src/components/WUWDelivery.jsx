@@ -67,7 +67,7 @@ export default function WUWDelivery() {
       category: 'Flower', 
       thc: '24%', 
       price: 45, 
-      image: '/menu-items/Bluedream.png',
+      image: './menu-items/Bluedream.png',
       rating: 4.8, 
       strain: 'Hybrid',
       delivery: true,
@@ -80,7 +80,7 @@ export default function WUWDelivery() {
       category: 'Flower', 
       thc: '26%', 
       price: 55, 
-      image: '/menu-items/gelato33.png',
+      image: './menu-items/gelato33.png',
       rating: 4.9, 
       strain: 'Indica',
       delivery: true,
@@ -93,7 +93,7 @@ export default function WUWDelivery() {
       category: 'Flower', 
       thc: '22%', 
       price: 40, 
-      image: '/menu-items/strawberycough.png',
+      image: './menu-items/strawberycough.png',
       rating: 4.7, 
       strain: 'Sativa',
       delivery: true,
@@ -106,7 +106,7 @@ export default function WUWDelivery() {
       category: 'Vapes', 
       thc: '89%', 
       price: 60, 
-      image: '/menu-items/live-resin-stiizy.png',
+      image: './menu-items/live-resin-stiizy.png',
       rating: 4.9, 
       strain: 'Hybrid',
       delivery: true,
@@ -119,7 +119,7 @@ export default function WUWDelivery() {
       category: 'Edibles', 
       thc: '100mg', 
       price: 25, 
-      image: '/menu-items/gummies.png',
+      image: './menu-items/gummies.png',
       rating: 4.6, 
       strain: 'Hybrid',
       delivery: true,
@@ -132,7 +132,7 @@ export default function WUWDelivery() {
       category: 'Pre-Rolls', 
       thc: '25%', 
       price: 35, 
-      image: '/menu-items/prerollpack.png',
+      image: './menu-items/prerollpack.png',
       rating: 4.8, 
       strain: 'Indica',
       delivery: true,
@@ -145,7 +145,7 @@ export default function WUWDelivery() {
       category: 'Flower', 
       thc: '27%', 
       price: 50, 
-      image: '/menu-items/weddingcake.png',
+      image: './menu-items/weddingcake.png',
       rating: 4.9, 
       strain: 'Indica',
       delivery: true,
@@ -158,7 +158,7 @@ export default function WUWDelivery() {
       category: 'Concentrates', 
       thc: '92%', 
       price: 70, 
-      image: '/menu-items/diamondsauce.png',
+      image: './menu-items/diamondsauce.png',
       rating: 4.8, 
       strain: 'Sativa',
       delivery: false,
@@ -194,7 +194,7 @@ export default function WUWDelivery() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
-              <img src="/logo-1.png" alt="WUW Logo" className="w-24 h-24 object-contain" />
+              <img src="./logo-1.png" alt="WUW Logo" className="w-24 h-24 object-contain" />
             </div>
 
             <nav className="hidden md:flex items-center space-x-8">
@@ -403,7 +403,7 @@ export default function WUWDelivery() {
       <footer className="bg-black border-t border-gray-800 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
-            <img src="/logo-1.png" alt="WUW Logo" className="w-20 h-20 object-contain brightness-0 invert" />
+            <img src="./logo-1.png" alt="WUW Logo" className="w-20 h-20 object-contain brightness-0 invert" />
           </div>
           <p className="text-white mb-6 font-light">Premium Cannabis Delivery Service</p>
           <p className="text-sm text-gray-300 font-light">
